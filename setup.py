@@ -1,7 +1,7 @@
 from setuptools import setup
-
+from testyair import __init__
 setup(name='testyair',
-      version='0.1.0',
+      version=__VERSION__,
       packages=['testyair'],
       entry_points={
           'console_scripts': [
